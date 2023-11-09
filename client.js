@@ -13,6 +13,10 @@
 // 2. board games
 // 3. painting
 // Total hobbies: 3
+ let hobbies = [ 'walking' , 'hiking' , 'basketball' , 'video games' ];
+ for (let i = 0; i<hobbies.length;i++){
+     console.log(hobbies[i])
+}
 
 /**
  * #2 Colors
@@ -29,6 +33,15 @@
 // Example output
 // green, red, teal, orange, teal
 // Teal was found 2 times
+
+let colors = [ 'red' , 'blue' , 'teal' , 'silver' ];
+
+ var tealCount = 0;
+for (let i = 0; i<colors.length; i++ ) {
+     if (colors[i] == 'teal'){tealCount++
+     }
+}
+console.log('teal was found ' + tealCount);
 
 
 /**
