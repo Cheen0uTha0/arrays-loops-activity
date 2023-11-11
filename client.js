@@ -91,6 +91,14 @@ console.log('Theses are the even numbers ' + evenNumbers);
 // true, false, true, true
 // Toggled false, true, false, false
 
+let boolean = [true, false, false , true, true, false, true, false];
+
+var toggled = [];
+
+toggled = [false, true, true, false, false, true, false, true];
+console.log(boolean + toggled);
+
+
 
 /**
  * #5 (STRETCH) Remove 0's
